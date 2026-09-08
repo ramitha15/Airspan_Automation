@@ -1,0 +1,8 @@
+==> /tmp/jesd/10.80.0.99/261006120925/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/261006120925/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/261006130926/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/261006130926/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/261006140927/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/261006140927/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/261006150928/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/261006150928/ULRTC_Measurements.csv <==

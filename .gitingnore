@@ -1,0 +1,6 @@
+rf-env
+.vscode
+.idea
+.venv
+venv
+*.txt /

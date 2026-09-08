@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.12.3 on linux)" generated="2026-08-14T08:24:15.746937" rpa="false" schemaversion="5">
+<suite id="s1" name="Image load 5G" source="/home/kvramesh/automation/Latest/Regression/Image_load_5G.robot">
+<test id="s1-t1" name="Image update procedure" line="100">
+<kw name="Get Time" owner="BuiltIn">
+<msg time="2026-08-14T08:24:16.195501" level="INFO">${START_TIME} = 2026-08-14 08:24:16</msg>
+<var>${START_TIME}</var>
+<arg>format=%Y-%m-%d %H:%M:%S</arg>
+<doc>Returns the given time in the requested format.</doc>
+<status status="PASS" start="2026-08-14T08:24:16.194813" elapsed="0.000749"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n==============================================\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:16.195940" elapsed="0.000480"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================Inside Helm update procedure:${START_TIME}==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:16.196664" elapsed="0.000476"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================After ${ANSIBLE_IP} ==========\n ${ANSIBLE_IP}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:16.197340" elapsed="0.000478"/>
+</kw>
+<kw name="Process_Images">
+<kw name="Ansible_PC">
+<kw name="Open Connection" owner="SSHLibrary">
+<arg>${ip}</arg>
+<arg>port=${port}</arg>
+<arg>alias=ANSIBLE_IP</arg>
+<doc>Opens a new SSH connection to the given ``host`` and ``port``.</doc>
+<status status="PASS" start="2026-08-14T08:24:16.199429" elapsed="0.000550"/>
+</kw>
+<kw name="Login" owner="SSHLibrary">
+<msg time="2026-08-14T08:24:16.200420" level="INFO">Logging into '10.80.0.5:22' as 'airspan'.</msg>
+<msg time="2026-08-14T08:24:17.502679" level="INFO">Read output: Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-106-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+2 devices have a firmware upgrade available.
+Run `fwupdmgr get-upgrades` for more information.
+
+
+2 devices have a firmware upgrade available.
+Run `fwupdmgr get-upgrades` for more information.
+
+Last login: Fri Aug 14 08:18:30 2026 from 10.80.1.77
+[?2004hairspan@airspan-OptiPlex-3020:~$</msg>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<doc>Logs into the SSH server with the given ``username`` and ``password``.</doc>
+<status status="PASS" start="2026-08-14T08:24:16.200165" elapsed="1.302986"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===============Ansible pc is logged in successfully new logging inside Ansible_PC============\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:17.503769" elapsed="0.001263"/>
+</kw>
+<arg>${ANSIBLE_IP}</arg>
+<status status="PASS" start="2026-08-14T08:24:16.198695" elapsed="1.306582"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:24:17.506229" level="INFO">Executing command 'ls -lart /at/k'.</msg>
+<msg time="2026-08-14T08:24:17.542528" level="INFO">Command exited with return code 0.</msg>
+<msg time="2026-08-14T08:24:17.543149" level="INFO">${output} = total 20496
+-rwxr-xr-x 1 1001 users 20971520 Jan 15  2025 ~$HfsEmergencySpace.tmp
+lrwxrwxrwx 1 1001 users        2 Jan 24  2025 p -&gt; /p
+drwxr-xr-x 2 1001 users        0 Apr 28  2025 tmpLogs
+drwxr-xr-x...</msg>
+<var>${output}</var>
+<arg>ls -lart /at/k</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:24:17.505792" elapsed="0.037449"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===============Ansible pc :${output} ============\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:17.543794" elapsed="0.001501"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>'${du_path}' != ''</arg>
+<arg>Process DU Image</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2026-08-14T08:24:17.545870" elapsed="0.001247"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Process CU Image">
+<kw name="Ansible_PC">
+<kw name="Open Connection" owner="SSHLibrary">
+<arg>${ip}</arg>
+<arg>port=${port}</arg>
+<arg>alias=ANSIBLE_IP</arg>
+<doc>Opens a new SSH connection to the given ``host`` and ``port``.</doc>
+<status status="PASS" start="2026-08-14T08:24:17.549273" elapsed="0.000624"/>
+</kw>
+<kw name="Login" owner="SSHLibrary">
+<msg time="2026-08-14T08:24:17.550750" level="INFO">Logging into '10.80.0.5:22' as 'airspan'.</msg>
+<msg time="2026-08-14T08:24:18.849429" level="INFO">Read output: Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-106-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+2 devices have a firmware upgrade available.
+Run `fwupdmgr get-upgrades` for more information.
+
+
+2 devices have a firmware upgrade available.
+Run `fwupdmgr get-upgrades` for more information.
+
+Last login: Fri Aug 14 08:24:16 2026 from 10.80.1.77
+[?2004hairspan@airspan-OptiPlex-3020:~$</msg>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<doc>Logs into the SSH server with the given ``username`` and ``password``.</doc>
+<status status="PASS" start="2026-08-14T08:24:17.550136" elapsed="1.299819"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===============Ansible pc is logged in successfully new logging inside Ansible_PC============\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:18.850540" elapsed="0.001279"/>
+</kw>
+<arg>${ANSIBLE_IP}</arg>
+<status status="PASS" start="2026-08-14T08:24:17.548722" elapsed="1.303371"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===============Inside process CU Image :${cu_path} ============\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:18.852465" elapsed="0.001100"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===============Ansible pc :${cu_path} ============\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:18.853878" elapsed="0.000481"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:24:18.854786" level="INFO">Executing command 'ls -lart /at/k/Development/Internal/Builds/5G/CU/airspan_cu_21.50-66-300.11'.</msg>
+<msg time="2026-08-14T08:24:18.880390" level="INFO">Command exited with return code 0.</msg>
+<msg time="2026-08-14T08:24:18.880805" level="INFO">${output} = total 2829028
+-rwxr-xr-x 1 1001 users  971807306 Aug 12 06:57 airspan_cu_21.50-66-300.11-dev.tgz
+-rwxr-xr-x 1 1001 users  822106445 Aug 12 06:57 airspan_cucp_app_x86_21.50-66-300.11-docker.tgz
+-rwxr-x...</msg>
+<var>${output}</var>
+<arg>ls -lart ${cu_path}</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:24:18.854554" elapsed="0.026351"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================${output} ==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:24:18.881370" elapsed="0.001469"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:24:18.883754" level="INFO">Executing command 'cp /at/k/Development/Internal/Builds/5G/CU/airspan_cu_21.50-66-300.11/*docker.tgz ~/Builds/'.</msg>
+<msg time="2026-08-14T08:25:12.715455" level="INFO">Command exited with return code 0.</msg>
+<arg>cp ${cu_path}/*docker.tgz ~/Builds/</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:24:18.883299" elapsed="53.832924"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================${output} ==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:25:12.717511" elapsed="0.002137"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:25:12.720462" level="INFO">Executing command 'tar -xvzf $(ls -t ~/Builds/*.tgz | head -n1) -C /home/airspan/Builds/'.</msg>
+<msg time="2026-08-14T08:25:57.530266" level="INFO">Command exited with return code 0.</msg>
+<msg time="2026-08-14T08:25:57.531514" level="INFO">${output} = 0cc5dd86b3e187943ddf593b13a7b1fe5391515ef62e71edd7f61d35c43fd6fd/
+0cc5dd86b3e187943ddf593b13a7b1fe5391515ef62e71edd7f61d35c43fd6fd/VERSION
+0cc5dd86b3e187943ddf593b13a7b1fe5391515ef62e71edd7f61d35c43fd...</msg>
+<var>${output}</var>
+<arg>tar -xvzf $(ls -t ~/Builds/*.tgz | head -n1) -C /home/airspan/Builds/</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:25:12.720271" elapsed="44.811346"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:25:57.533673" level="INFO">Executing command 'ls -t ~/Builds/airspan_cucp_app*.tgz | head -n1'.</msg>
+<msg time="2026-08-14T08:25:57.601401" level="INFO">Command exited with return code 0.</msg>
+<msg time="2026-08-14T08:25:57.601981" level="INFO">${cucp_output} = /home/airspan/Builds/airspan_cucp_app_x86_21.50-66-300.11-docker.tgz</msg>
+<var>${cucp_output}</var>
+<arg>ls -t ~/Builds/airspan_cucp_app*.tgz | head -n1</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.532972" elapsed="0.069099"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:25:57.603060" level="INFO">Executing command 'ls -t ~/Builds/airspan_cuup_app*.tgz | head -n1'.</msg>
+<msg time="2026-08-14T08:25:57.647369" level="INFO">Command exited with return code 0.</msg>
+<msg time="2026-08-14T08:25:57.647786" level="INFO">${cuup_output} = /home/airspan/Builds/airspan_cuup_app_x86_21.50-66-300.11-docker.tgz</msg>
+<var>${cuup_output}</var>
+<arg>ls -t ~/Builds/airspan_cuup_app*.tgz | head -n1</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.602586" elapsed="0.045320"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================${cucp_output} ==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.648338" elapsed="0.001781"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================${cuup_output} ==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.650545" elapsed="0.001024"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:25:57.652409" level="INFO">Executing command 'basename /home/airspan/Builds/airspan_cucp_app_x86_21.50-66-300.11-docker.tgz'.</msg>
+<msg time="2026-08-14T08:25:57.697898" level="INFO">Command exited with return code 0.</msg>
+<msg time="2026-08-14T08:25:57.698352" level="INFO">${CUCP_FILE} = airspan_cucp_app_x86_21.50-66-300.11-docker.tgz</msg>
+<var>${CUCP_FILE}</var>
+<arg>basename ${cucp_output}</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.652016" elapsed="0.046444"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:25:57.699698" level="INFO">Executing command 'basename /home/airspan/Builds/airspan_cuup_app_x86_21.50-66-300.11-docker.tgz'.</msg>
+<msg time="2026-08-14T08:25:57.747390" level="INFO">Command exited with return code 0.</msg>
+<msg time="2026-08-14T08:25:57.747912" level="INFO">${CUUP_FILE} = airspan_cuup_app_x86_21.50-66-300.11-docker.tgz</msg>
+<var>${CUUP_FILE}</var>
+<arg>basename ${cuup_output}</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.699138" elapsed="0.048856"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================${CUCP_FILE}==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.748470" elapsed="0.001359"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================${CUUP_FILE}==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.750275" elapsed="0.001105"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:25:57.752327" level="INFO">Executing command '/home/airspan/ansible/image_update.sh /home/airspan/Builds/ /home/admin/Builds/ airspan_cucp_app_x86_21.50-66-300.11-docker.tgz airspan_cuup_app_x86_21.50-66-300.11-docker.tgz'.</msg>
+<msg time="2026-08-14T08:32:03.980536" level="INFO">Command exited with return code 0.</msg>
+<msg time="2026-08-14T08:32:03.981642" level="INFO">${output} = Path of image path_src: /home/airspan/Builds/
+Path on server path_dest: /home/admin/Builds/
+file of image: airspan_cucp_app_x86_21.50-66-300.11-docker.tgz
+
+PLAY [gbss1:gbss8:gbss6:gbss2:gbss7:gbss5:gb...</msg>
+<var>${output}</var>
+<arg>/home/airspan/ansible/image_update.sh /home/airspan/Builds/ /home/admin/Builds/ ${CUCP_FILE} ${CUUP_FILE}</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:25:57.751804" elapsed="366.229969"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================${output} ==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:32:03.982701" elapsed="0.278340"/>
+</kw>
+<kw name="Execute Command" owner="SSHLibrary">
+<msg time="2026-08-14T08:32:04.262502" level="INFO">Executing command 'rm -rf airspan_cucp_app_x86_21.50-66-300.11-docker.tgz airspan_cuup_app_x86_21.50-66-300.11-docker.tgz'.</msg>
+<msg time="2026-08-14T08:32:04.299104" level="INFO">Command exited with return code 0.</msg>
+<arg>rm -rf ${CUCP_FILE} ${CUUP_FILE}</arg>
+<doc>Executes ``command`` on the remote machine and returns its outputs.</doc>
+<status status="PASS" start="2026-08-14T08:32:04.261712" elapsed="0.037735"/>
+</kw>
+<status status="PASS" start="2026-08-14T08:24:17.548241" elapsed="466.751697"/>
+</kw>
+<arg>'${cu_path}' != ''</arg>
+<arg>Process CU Image</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2026-08-14T08:24:17.547383" elapsed="466.752780"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================Testcase completed==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:32:04.300711" elapsed="0.001761"/>
+</kw>
+<status status="PASS" start="2026-08-14T08:24:16.198197" elapsed="468.104693"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>\n===================================End of the TC==========\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-08-14T08:32:04.303688" elapsed="0.000731"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-08-14T08:32:06.305554" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-08-14T08:32:04.304647" elapsed="2.001323"/>
+</kw>
+<doc>Test case to update docker images to all the servers</doc>
+<tag>Ansible</tag>
+<status status="PASS" start="2026-08-14T08:24:16.192905" elapsed="470.113908"/>
+</test>
+<status status="PASS" start="2026-08-14T08:24:15.748503" elapsed="470.560917"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Ansible</stat>
+</tag>
+<suite>
+<stat name="Image load 5G" id="s1" pass="1" fail="0" skip="0">Image load 5G</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-08-14T08:24:16.001321" level="WARN">Error in file '/home/kvramesh/automation/Latest/Regression/RaspberryPi_Aircard_SSH.robot' on line 3: Suite 'Image load 5G' has already imported library 'SSHLibrary' with different arguments. This import is ignored.</msg>
+<msg time="2026-08-14T08:24:16.180195" level="WARN">Error in file '/home/kvramesh/automation/Latest/Regression/Image_load_5G.robot' on line 10: Suite 'Image load 5G' has already imported library 'SSHLibrary' with different arguments. This import is ignored.</msg>
+</errors>
+</robot>

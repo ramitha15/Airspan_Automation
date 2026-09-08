@@ -1,0 +1,1496 @@
+==> /tmp/jesd/192.168.15.15/260505191248/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505191248/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505193540/DLRTC_Measurements.csv <==
+411,1
+413,1
+==> /tmp/jesd/192.168.15.15/260505193540/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505195827/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.15/260505195827/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505202115/DLRTC_Measurements.csv <==
+412,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.15/260505202115/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505204402/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505204402/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505210649/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505210649/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505212936/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505212936/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505215223/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+==> /tmp/jesd/192.168.15.15/260505215223/ULRTC_Measurements.csv <==
+303,1
+==> /tmp/jesd/192.168.15.15/260505221510/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505221510/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505223757/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505223757/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505230044/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505230044/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260505232331/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+414,1
+414,1
+414,1
+414,1
+414,1
+413,1
+413,1
+413,1
+==> /tmp/jesd/192.168.15.15/260505232331/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605000925/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+413,1
+413,1
+413,1
+413,1
+413,1
+412,1
+412,1
+412,1
+412,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.15/260605000925/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605003212/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605003212/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605005459/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605005459/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605011746/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605011746/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605014033/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605014033/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605020320/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605020320/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605022607/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605022607/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605024854/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605024854/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605031141/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.15/260605031141/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605033429/DLRTC_Measurements.csv <==
+413,1
+414,1
+==> /tmp/jesd/192.168.15.15/260605033429/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605035717/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605035717/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605042004/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605042004/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605044251/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605044251/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605050538/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.15/260605050538/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605052825/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605052825/ULRTC_Measurements.csv <==
+401,1
+==> /tmp/jesd/192.168.15.15/260605055112/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605055112/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605061359/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605061359/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605063646/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605063646/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.15/260605065933/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.15/260605065933/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505191328/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505191328/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505193621/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+412,1
+412,1
+412,1
+==> /tmp/jesd/192.168.15.16/260505193621/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505195908/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505195908/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505202155/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505202155/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505204443/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505204443/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505210730/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505210730/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505213017/DLRTC_Measurements.csv <==
+412,1
+==> /tmp/jesd/192.168.15.16/260505213017/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505215304/DLRTC_Measurements.csv <==
+412,1
+412,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.16/260505215304/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505221551/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505221551/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505223838/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505223838/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505230125/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505230125/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505232412/DLRTC_Measurements.csv <==
+411,1
+411,1
+413,1
+413,1
+==> /tmp/jesd/192.168.15.16/260505232412/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260505234718/DLRTC_Measurements.csv <==
+413,1
+413,1
+==> /tmp/jesd/192.168.15.16/260505234718/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605001005/DLRTC_Measurements.csv <==
+413,1
+413,1
+==> /tmp/jesd/192.168.15.16/260605001005/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605003252/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605003252/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605005540/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605005540/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605011827/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605011827/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605014114/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605014114/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605020401/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.16/260605020401/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605022648/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605022648/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605024935/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605024935/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605031222/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605031222/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605033510/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605033510/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605035757/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+411,1
+==> /tmp/jesd/192.168.15.16/260605035757/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605042044/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605042044/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605044332/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605044332/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605050619/DLRTC_Measurements.csv <==
+412,1
+==> /tmp/jesd/192.168.15.16/260605050619/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605052906/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605052906/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605055153/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605055153/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605061440/DLRTC_Measurements.csv <==
+413,1
+==> /tmp/jesd/192.168.15.16/260605061440/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605063727/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+413,2
+==> /tmp/jesd/192.168.15.16/260605063727/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605070014/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.16/260605070014/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505191409/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505191409/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505193702/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505193702/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505195949/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.17/260505195949/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505202236/DLRTC_Measurements.csv <==
+414,1
+==> /tmp/jesd/192.168.15.17/260505202236/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505204523/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505204523/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505210810/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+413,1
+413,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.17/260505210810/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505213058/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505213058/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505215345/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505215345/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505221632/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505221632/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505223919/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505223919/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505230206/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505230206/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505232453/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505232453/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260505234759/DLRTC_Measurements.csv <==
+412,1
+412,1
+412,1
+412,1
+412,1
+414,1
+414,1
+414,1
+414,1
+414,1
+411,1
+411,1
+411,1
+411,1
+413,1
+413,1
+413,1
+413,1
+==> /tmp/jesd/192.168.15.17/260505234759/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605001046/DLRTC_Measurements.csv <==
+412,1
+==> /tmp/jesd/192.168.15.17/260605001046/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605003333/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605003333/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605005621/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605005621/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605011908/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605011908/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605014155/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605014155/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605020442/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605020442/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605022729/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605022729/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605025016/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605025016/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605031303/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605031303/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605033551/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605033551/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605035838/DLRTC_Measurements.csv <==
+413,1
+413,1
+==> /tmp/jesd/192.168.15.17/260605035838/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605042125/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605042125/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605044412/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605044412/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605050700/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605050700/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605052947/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605052947/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605055234/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.17/260605055234/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605061521/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605061521/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605063808/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605063808/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605070055/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.17/260605070055/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505191456/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,2
+414,1
+414,1
+==> /tmp/jesd/192.168.15.20/260505191456/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505193743/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505193743/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505200030/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+414,1
+414,1
+414,1
+414,1
+414,1
+412,1
+412,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+==> /tmp/jesd/192.168.15.20/260505200030/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505202317/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505202317/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505204604/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505204604/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505210851/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.20/260505210851/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505213138/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505213138/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505215426/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505215426/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505221713/DLRTC_Measurements.csv <==
+412,1
+412,1
+412,1
+412,1
+412,1
+412,1
+412,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+412,2
+412,2
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.20/260505221713/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505224000/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505224000/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505230247/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505230247/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505232534/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505232534/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260505234840/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.20/260505234840/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605001127/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605001127/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605003414/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.20/260605003414/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605005701/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605005701/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605011948/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605011948/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605014236/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605014236/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605020523/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605020523/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605022810/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605022810/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605025057/DLRTC_Measurements.csv <==
+302,1
+302,1
+302,1
+==> /tmp/jesd/192.168.15.20/260605025057/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605031344/DLRTC_Measurements.csv <==
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,2
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+413,1
+==> /tmp/jesd/192.168.15.20/260605031344/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605033632/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605033632/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605035919/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605035919/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605042206/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605042206/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605044453/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605044453/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605050740/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605050740/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605053028/DLRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605053028/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605055315/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+413,1
+413,1
+413,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.20/260605055315/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605061602/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.20/260605061602/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605063849/DLRTC_Measurements.csv <==
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+411,1
+411,1
+411,1
+411,1
+==> /tmp/jesd/192.168.15.20/260605063849/ULRTC_Measurements.csv <==
+==> /tmp/jesd/192.168.15.20/260605070136/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/192.168.15.20/260605070136/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505191527/DLRTC_Measurements.csv <==
+313,1
+313,1
+==> /tmp/jesd/10.80.0.65/260505191527/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505193814/DLRTC_Measurements.csv <==
+313,1
+==> /tmp/jesd/10.80.0.65/260505193814/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505200101/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505200101/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505202348/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505202348/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505204635/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505204635/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505210922/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.65/260505210922/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505213209/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505213209/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505215456/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505215456/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505221744/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505221744/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505224031/DLRTC_Measurements.csv <==
+302,1
+==> /tmp/jesd/10.80.0.65/260505224031/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505230318/DLRTC_Measurements.csv <==
+412,1
+==> /tmp/jesd/10.80.0.65/260505230318/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505232605/DLRTC_Measurements.csv <==
+414,1
+==> /tmp/jesd/10.80.0.65/260505232605/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505234911/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260505234911/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605001158/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605001158/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605003445/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605003445/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605005732/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605005732/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605012019/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+413,1
+413,1
+413,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.65/260605012019/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605014306/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605014306/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605020553/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605020553/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605022841/DLRTC_Measurements.csv <==
+313,1
+313,1
+==> /tmp/jesd/10.80.0.65/260605022841/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605025128/DLRTC_Measurements.csv <==
+412,1
+==> /tmp/jesd/10.80.0.65/260605025128/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605031415/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605031415/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605033703/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+414,1
+414,1
+414,1
+414,1
+413,1
+413,1
+413,1
+==> /tmp/jesd/10.80.0.65/260605033703/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605035950/DLRTC_Measurements.csv <==
+312,1
+==> /tmp/jesd/10.80.0.65/260605035950/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605042237/DLRTC_Measurements.csv <==
+312,1
+312,1
+==> /tmp/jesd/10.80.0.65/260605042237/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605044524/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605044524/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605050811/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605050811/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605053058/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605053058/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605055345/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605055345/ULRTC_Measurements.csv <==
+302,1
+==> /tmp/jesd/10.80.0.65/260605061633/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605061633/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605063920/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605063920/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605070207/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.65/260605070207/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505191527/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.84/260505191527/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505193815/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505193815/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505200102/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505200102/ULRTC_Measurements.csv <==
+303,1
+313,1
+403,1
+412,1
+412,1
+==> /tmp/jesd/10.80.0.84/260505202349/DLRTC_Measurements.csv <==
+411,1
+411,1
+==> /tmp/jesd/10.80.0.84/260505202349/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505204636/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505204636/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505210923/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505210923/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505213210/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505213210/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505215457/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505215457/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505221744/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505221744/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505224031/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+413,1
+413,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.84/260505224031/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505230319/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.84/260505230319/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505232606/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505232606/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260505234912/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.84/260505234912/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605001159/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605001159/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605003446/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.84/260605003446/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605005733/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605005733/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605012020/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+414,1
+414,1
+414,1
+414,1
+413,1
+413,1
+413,1
+==> /tmp/jesd/10.80.0.84/260605012020/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605014307/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.84/260605014307/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605020554/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605020554/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605022841/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+412,1
+413,1
+413,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.84/260605022841/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605025128/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605025128/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605031416/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605031416/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605033704/DLRTC_Measurements.csv <==
+413,1
+==> /tmp/jesd/10.80.0.84/260605033704/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605035951/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605035951/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605042238/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605042238/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605044525/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605044525/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605050812/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605050812/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605053059/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605053059/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605055346/DLRTC_Measurements.csv <==
+414,1
+414,1
+412,1
+==> /tmp/jesd/10.80.0.84/260605055346/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605061633/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605061633/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605063920/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.84/260605063920/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605070207/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.84/260605070207/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505191528/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505191528/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505193816/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+412,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+411,1
+413,1
+413,1
+413,1
+413,1
+==> /tmp/jesd/10.80.0.93/260505193816/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505200103/DLRTC_Measurements.csv <==
+413,1
+411,1
+411,1
+411,1
+412,1
+412,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.93/260505200103/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505202350/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.93/260505202350/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505204637/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505204637/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505210924/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505210924/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505213211/DLRTC_Measurements.csv <==
+413,1
+403,1
+412,1
+==> /tmp/jesd/10.80.0.93/260505213211/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505215458/DLRTC_Measurements.csv <==
+413,1
+413,1
+413,1
+412,1
+==> /tmp/jesd/10.80.0.93/260505215458/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505221745/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505221745/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505224032/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.93/260505224032/ULRTC_Measurements.csv <==
+413,1
+==> /tmp/jesd/10.80.0.93/260505230319/DLRTC_Measurements.csv <==
+311,1
+311,1
+==> /tmp/jesd/10.80.0.93/260505230319/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505232606/DLRTC_Measurements.csv <==
+311,1
+311,1
+==> /tmp/jesd/10.80.0.93/260505232606/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505234913/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260505234913/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605001200/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+412,1
+412,1
+==> /tmp/jesd/10.80.0.93/260605001200/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605003447/DLRTC_Measurements.csv <==
+412,1
+412,1
+412,1
+413,1
+==> /tmp/jesd/10.80.0.93/260605003447/ULRTC_Measurements.csv <==
+304,1
+312,1
+402,1
+==> /tmp/jesd/10.80.0.93/260605005734/DLRTC_Measurements.csv <==
+413,1
+413,1
+==> /tmp/jesd/10.80.0.93/260605005734/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605012021/DLRTC_Measurements.csv <==
+413,1
+413,1
+413,1
+==> /tmp/jesd/10.80.0.93/260605012021/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605014308/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.93/260605014308/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605020555/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605020555/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605022842/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605022842/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605025129/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605025129/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605031417/DLRTC_Measurements.csv <==
+313,1
+313,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+412,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.93/260605031417/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605033705/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+313,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+==> /tmp/jesd/10.80.0.93/260605033705/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605035952/DLRTC_Measurements.csv <==
+302,1
+402,1
+402,1
+==> /tmp/jesd/10.80.0.93/260605035952/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605042239/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+412,1
+412,1
+==> /tmp/jesd/10.80.0.93/260605042239/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605044526/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605044526/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605050813/DLRTC_Measurements.csv <==
+413,1
+413,1
+413,1
+==> /tmp/jesd/10.80.0.93/260605050813/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605053100/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605053100/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605055347/DLRTC_Measurements.csv <==
+411,1
+412,1
+412,1
+412,1
+313,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.93/260605055347/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605061634/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605061634/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605063921/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605063921/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605070208/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.93/260605070208/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505191529/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.99/260505191529/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505193817/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.99/260505193817/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505200104/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505200104/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505202351/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505202351/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505204638/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505204638/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505210925/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505210925/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505213212/DLRTC_Measurements.csv <==
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.99/260505213212/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505215459/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505215459/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505221746/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505221746/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505224033/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505224033/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505230320/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+412,1
+412,1
+412,1
+==> /tmp/jesd/10.80.0.99/260505230320/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505232607/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505232607/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505234914/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260505234914/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605001201/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605001201/ULRTC_Measurements.csv <==
+304,1
+313,1
+313,1
+313,1
+313,1
+404,1
+413,1
+==> /tmp/jesd/10.80.0.99/260605003448/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605003448/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605005735/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605005735/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605012022/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605012022/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605014309/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605014309/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605020556/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605020556/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605022843/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+414,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+==> /tmp/jesd/10.80.0.99/260605022843/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605025130/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605025130/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605031418/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605031418/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605033706/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.99/260605033706/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605035953/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605035953/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605042240/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605042240/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605044527/DLRTC_Measurements.csv <==
+411,1
+411,1
+411,1
+411,1
+411,1
+412,1
+412,1
+412,1
+412,1
+413,1
+413,1
+413,1
+413,1
+414,1
+414,1
+414,1
+414,1
+==> /tmp/jesd/10.80.0.99/260605044527/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605050814/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605050814/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605053101/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605053101/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605055348/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605055348/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605061635/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605061635/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605063922/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605063922/ULRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605070209/DLRTC_Measurements.csv <==
+==> /tmp/jesd/10.80.0.99/260605070209/ULRTC_Measurements.csv <==
