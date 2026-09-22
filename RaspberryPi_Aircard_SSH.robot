@@ -238,7 +238,7 @@ Fetch eNB Rest ID
     ${enbcfg}=       Get From Dictionary    ${nodes_det}   enbConfig
     ${celllist}=      Get From Dictionary    ${enbcfg}  lteCellList
     FOR     ${cells}    IN    @{celllist}
-        IF    ${cells}[cellNumber] == ${first}  or  ${cells}[cellNumber] == ${second}   or  ${cells}[cellNumber] == ${third}
+        IF    ${cells}[cellNumber] == ${first} or ${cells}[cellNumber] == ${second} or ${cells}[cellNumber] == ${third}
             ${keytoremove}=     Create List     embmsProfile    trafficManagementProfile    csfbCdma2kMobilityParam     prachRsi
             Remove From Dictionary    ${cells}      @{keytoremove}
             ${cellstate}=    Get From Dictionary    ${cells}     isEnabled
@@ -1085,7 +1085,7 @@ Start_Non_Commercial_CE
     Write    tmux send-keys -t chanemu "set_rx_gain_db 20 1" C-m
     Write    tmux send-keys -t chanemu "set_tx_gain_db 64 2" C-m
     Write    tmux send-keys -t chanemu "set_tx_gain_db 64 3" C-m
-    Write    tmux send-keys -t chanemu "configure_mimo_mode 270 inf" C-m
+    Write    tmux send-keys -t chanemu "configure_mimo_mode 240 inf" C-m
 
     Log to console    "End of Initialization of CE and ready to do UE sign on"
 
@@ -1159,7 +1159,7 @@ ATG_4G_CLI LOG_TA FULL SWEEP
 Start fw rsrp sweep enb6ac
     [Arguments]    ${pi_ip}
     ${time}=     Get Current Date    result_format=%H-%M
-    ${set_enb6_fw_rsrp}=    Set variable    cd ~/ps_scripts; ./kvr_enb6_puc1.sh
+    ${set_enb6_fw_rsrp}=    Set variable    cd ~/ps_scripts; ./kvr_enb6_puc1_odd.sh
     #${set_enb6_fw_rsrp}=    Set variable    cd ~/ps_scripts; ./eNB6_PUC1_FW_RSRPsweep.sh
     
     Login Pi    ${pi_ip}
@@ -1169,7 +1169,7 @@ Start fw rsrp sweep enb6ac
 Start bw rsrp sweep enb6ac
     [Arguments]    ${pi_ip}
     ${time}=     Get Current Date    result_format=%H-%M
-    ${set_enb6_bw_rsrp}=    Set variable    cd ~/ps_scripts; ./kvr_enb6_reserse_puc1.sh
+    ${set_enb6_bw_rsrp}=    Set variable    cd ~/ps_scripts; ./kvr_enb6_reserse_puc1_odd.sh
     #${set_enb6_bw_rsrp}=    Set variable    cd ~/ps_scripts; ./eNB6_PUC1_REV_RSRPsweep.sh
     Login Pi    ${pi_ip}
      Log to console    ========= Inside pi ${pi_ip} Setting enb6 BW RSRP before starting UE log collection==========
@@ -1463,7 +1463,7 @@ Start enb6 PUC1 UE log collection_usernameSVG
     [Arguments]    ${pi_ip}
     ${time}=     Get Current Date    result_format=%H-%M
     ${UE_log_cmd}=    Set Variable    sudo netcat -l -s 192.168.4.1 -u -p 514 > /tmp/${pi_ip}_${time}_UE_Serial.log
-    ${set_enb6_puc1_gain}=    Set variable    cd ~/ps_scripts; ./setGain.sh 0 6
+    ${set_enb6_puc1_gain}=    Set variable    cd ~/ps_scripts; ./setGain.sh 0 14
     ${set_enb6_puc1_port8}=    Set variable    cd ~/ps_scripts; ./setGain.sh 0 8
     #${set_enb6_puc1_port0}=    Set variable    cd ~/ps_scripts; ./setGain.sh 110 0
     #${set_enb6_puc1_port2}=    Set variable    cd ~/ps_scripts; ./setGain.sh 110 2

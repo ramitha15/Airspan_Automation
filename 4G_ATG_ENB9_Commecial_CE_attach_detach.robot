@@ -18,7 +18,7 @@ Library    DateTime
 Suite Teardown    Terminate All Processes
 
 *** Variables ***
-${DURATION}     2500
+${DURATION}     1800
 ${CE_IP}      10.80.100.201
 ${CE_username}      pi
 ${CE_password}      !@#4ir$p4N

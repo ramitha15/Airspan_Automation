@@ -3,27 +3,27 @@
 # Total test duration: 30 minutes
 DURATION=1800
 
-# Port 8 (stronger path): RSRP -126 -> -94 => 34 dB down to 2 dB attenuation
-PORT8_START=34
+# Port 9: starts at 30 dB attenuation, ramps down to 0 dB
+PORT9_START=30
+PORT9_END=0
+PORT9_RANGE=$((PORT9_START - PORT9_END))    # 30 dB decrease
+
+# Port 8: starts at port9 start + 10 (40 dB), ramps down to 2 dB
+PORT8_START=$((PORT9_START + 10))
 PORT8_END=2
-PORT8_RANGE=$((PORT8_START - PORT8_END))    # 32 dB decrease
+PORT8_RANGE=$((PORT8_START - PORT8_END))    # 38 dB decrease
 
-# Port 9 (weaker path): RSRP -140 -> -94 => 48 dB down to 2 dB attenuation
-PORT9_START=48
-PORT9_END=2
-PORT9_RANGE=$((PORT9_START - PORT9_END))    # 46 dB decrease
-
-# Loop granularity is set by the larger ramp: 46 x 1 dB steps
-STEPS=$PORT9_RANGE                          # 1800 s / 46 steps ~= 39.1 s per step
+# Loop granularity is set by the larger ramp
+STEPS=$PORT8_RANGE                          # 1800 s / 38 steps ~= 47.4 s per step
 
 prev9=-1
 prev8=-1
 SECONDS=0
 
 for ((i = 0; i <= STEPS; i++)); do
-    # Port 8 decrement floored so its attenuation never exceeds port 9's (stays stronger throughout)
-    port8_att=$((PORT8_START - PORT8_RANGE * i / STEPS))
-    port9_att=$((PORT9_START - i))
+    # Port 9 interpolated with rounding: 30 dB spread over 38 steps, decreasing
+    port9_att=$((PORT9_START - (PORT9_RANGE * i + STEPS / 2) / STEPS))
+    port8_att=$((PORT8_START - i))
 
     if [ "$port9_att" -ne "$prev9" ]; then
         echo "$(date '+%H:%M:%S')  Setting Port 9 attenuation to ${port9_att} dB"
@@ -45,4 +45,4 @@ for ((i = 0; i <= STEPS; i++)); do
     fi
 done
 
-echo "Completed reverse ramp: Port 8 at ${PORT8_END} dB (RSRP ~ -94), Port 9 at ${PORT9_END} dB (RSRP ~ -94) in $((SECONDS / 60)) min"
+echo "Completed reverse ramp: Port 9 at ${PORT9_END} dB, Port 8 at ${PORT8_END} dB in $((SECONDS / 60)) min"
