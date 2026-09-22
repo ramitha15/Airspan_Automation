@@ -18,7 +18,7 @@ Library    DateTime
 Suite Teardown    Terminate All Processes
 
 *** Variables ***
-${DURATION}     1800
+${DURATION}     3600
 ${CE_IP}      10.80.100.201
 ${CE_username}      pi
 ${CE_password}      !@#4ir$p4N
@@ -36,17 +36,19 @@ ${enb6_pi}      10.80.0.12
     ${pi_ip}=   Set Variable    10.80.0.12
     ${time}=     Get Current Date    result_format=%H-%M
     ${RESULT_PATH}=     ATG_4G_Create Log Path
+     
     Start UE log collection_usernameSWUSER     ${pi_ip}
     
     Start_Non_Commercial_CE     ${pi_ip}     4G_ATG_ENB6_TA SWEEP
 
     #${ue_state}=    TCP BIDI    ${pi_ip}     ${base_port}
-    ${ue_state}=    UDP BIDI   ${pi_ip}
+    ${ue_state}=    UDP UL   ${pi_ip}
     Sleep    10s
     Log    ${ue_state}
+    
     IF    '13' in """${ue_state}"""
            #ATG_4G_CLI LOG_TA FULL SWEEP
-          ATG_4G_CLI LOG_TA FW SWEEP
+          ATG_4G_CLI LOG_TA FULL SWEEP_Latest
     ELSE
         Log To Console    =======================================================
         Log With Color    ================== UE is not attached ==================    red
