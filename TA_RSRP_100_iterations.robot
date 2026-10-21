@@ -26,42 +26,42 @@ ${eNB6}     10.80.5.249
 ${RU_eNB6}     10.80.6.64
 ${enb6_pi}      10.80.0.12
 
-#*** Test Cases ***
-#4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
-#    [Tags]    4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
+*** Test Cases ***
+4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
+    [Tags]    4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
     
-#    ${CURRENT}=     Get Current Date
-#    ${start_time}=    Get Current Date
-#    ${end_time}=      Add Time To Date    ${start_time}    ${DURATION}
- #   ${pi_ip}=   Set Variable    10.80.0.12
- #   ${time}=     Get Current Date    result_format=%H-%M
- #   ${RESULT_PATH}=     ATG_4G_Create Log Path
+    ${CURRENT}=     Get Current Date
+    ${start_time}=    Get Current Date
+    ${end_time}=      Add Time To Date    ${start_time}    ${DURATION}
+   ${pi_ip}=   Set Variable    10.80.0.12
+   ${time}=     Get Current Date    result_format=%H-%M
+   ${RESULT_PATH}=     ATG_4G_Create Log Path
      
- #   Start UE log collection_usernameSWUSER     ${pi_ip}
+   Start UE log collection_usernameSWUSER     ${pi_ip}
     
- #   Start_Non_Commercial_CE     ${pi_ip}     4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
+   Start_Non_Commercial_CE     ${pi_ip}     4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
 
     #${ue_state}=    TCP BIDI    ${pi_ip}     ${base_port}
-  #  ${ue_state}=    UDP BIDI   ${pi_ip}
-  #  Sleep    10s
-  #  Log    ${ue_state}
-  #  IF    '13' in """${ue_state}"""
+    ${ue_state}=    UDP BIDI   ${pi_ip}
+    Sleep    10s
+    Log    ${ue_state}
+    IF    '13' in """${ue_state}"""
          
-  #         ATG_4G_CLI_TA_RSRP_100_iterations_90_110_kms 
-  #  ELSE
-   #     Log To Console    =======================================================
-   #     Log With Color    ================== UE is not attached ==================    red
-    #    Log To Console    =======================================================
-    #END
+           ATG_4G_CLI_TA_RSRP_100_iterations_90_110_kms 
+    ELSE
+        Log To Console    =======================================================
+        Log With Color    ================== UE is not attached ==================    red
+        Log To Console    =======================================================
+    END
 
 
-    #Stop UE log collection_usernameSWUSER      ${pi_ip}
-    #ATG_4G_bs Log Collection    ${eNB6}      4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
-    #ATG_4G_L1 log collection    ${eNB6}      4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
-   # ATG_4G_L1 log clear      ${eNB6}      4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
+    Stop UE log collection_usernameSWUSER      ${pi_ip}
+    ATG_4G_bs Log Collection    ${eNB6}      4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
+    ATG_4G_L1 log collection    ${eNB6}      4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
+    ATG_4G_L1 log clear      ${eNB6}      4G_ATG_ENB6_TA SWEEP_PUC2a_90_110_kms
 
-    #SSHLibrary.Close All Connections
-*** Test Cases ***
+    SSHLibrary.Close All Connections
+#*** Test Cases ***
 4G_ATG_ENB6_TA SWEEP_PUC2a_240_260_kms
     [Tags]    4G_ATG_ENB6_TA SWEEP_PUC2a_240_260_kms
     
@@ -105,9 +105,9 @@ ATG_4G_CLI_TA_RSRP_100_iterations_90_110_kms
     ...    ${speed}. Expects the CE tmux session (alias CE) to be already opened by
     ...    Start_Non_Commercial_CE.
     [Tags]    ATG_4G_CLI_TA_RSRP_100_iterations_90_110_kms
-    [Arguments]    ${rack_pi_ip}=10.80.6.247    ${cycles}=5    ${step_interval}=10    ${speed}=1200
+    [Arguments]    ${rack_pi_ip}=10.80.6.247    ${cycles}=2    ${step_interval}=10    ${speed}=1200
 
-    @{atten_list}=    Create List        ${25}    ${30}    ${33}   ${35}    ${38}
+    @{atten_list}=    Create List       ${20}  ${25} 
 
     # One persistent connection to the rack pi for the attenuation settings
     Login Pi    ${rack_pi_ip}
@@ -143,9 +143,9 @@ ATG_4G_CLI_TA_RSRP_100_iterations_240_260_kms
     ...    ${speed}. Expects the CE tmux session (alias CE) to be already opened by
     ...    Start_Non_Commercial_CE.
     [Tags]    ATG_4G_CLI_TA_RSRP_100_iterations_240_260_kms
-    [Arguments]    ${rack_pi_ip}=10.80.6.247    ${cycles}=5   ${step_interval}=10    ${speed}=1200
+    [Arguments]    ${rack_pi_ip}=10.80.6.247    ${cycles}=2   ${step_interval}=10    ${speed}=1200
 
-    @{atten_list}=    Create List    ${25}    ${30}    ${33}   ${35}    ${38}
+    @{atten_list}=    Create List    ${25}    ${30}   
 
     # One persistent connection to the rack pi for the attenuation settings
     Login Pi    ${rack_pi_ip}

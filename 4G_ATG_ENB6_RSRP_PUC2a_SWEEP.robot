@@ -42,7 +42,7 @@ ${enb6_pi}      10.80.0.12
     #Start_Non_Commercial_CE     ${pi_ip}     4G_ATG_ENB6_RSRP SWEEP
 
     #${ue_state}=    TCP BIDI    ${pi_ip}     ${base_port}
-    ${ue_state}=    UDP BIDI   ${pi_ip}
+    ${ue_state}=    UDP DL   ${pi_ip}
     Sleep    ${DURATION}
     #Log With Color    ================== Contents of ue_state :  ${ue_state}==================
     #Log    ${ue_state}

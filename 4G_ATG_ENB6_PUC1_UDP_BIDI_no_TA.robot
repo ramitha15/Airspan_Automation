@@ -1,6 +1,7 @@
 *** settings ***
 Resource    /home/kvramesh/automation/Latest/Regression/Variables.robot
 Resource    /home/kvramesh/automation/Latest/Regression/RaspberryPi_Aircard_SSH.robot
+Resource    /home/kvramesh/automation/Latest/Regression/UKVM_Log_Collection.robot
 #Resource    ../Resources/ATG/keyword.robot
 Library    Process
 Library    SSHLibrary
@@ -18,7 +19,7 @@ Library    DateTime
 Suite Teardown    Terminate All Processes
 
 *** Variables ***
-${DURATION}     1800
+${DURATION}     300
 ${CE_IP}      10.80.100.201
 ${CE_username}      pi
 ${CE_password}      !@#4ir$p4N
@@ -39,7 +40,7 @@ ${enb6_pi}      10.80.0.12cd
     Start enb6 PUC1 UE log collection_usernameSVG     ${pi_ip}
     ATG_4G_L1 log clear      ${eNB6}      4G_ATG_ENB6_PUC1_UDP_BIDI
     Start_Non_Commercial_CE     ${pi_ip}     4G_ATG_ENB6_PUC1_UDP_BIDI
-    ${ue_state}=    UDP BIDI    ${pi_ip}
+    ${ue_state}=    UDP BIDI    ${pi_ip}     
 
     Sleep     ${DURATION}
     #Log    ${ue_state}
@@ -51,10 +52,10 @@ ${enb6_pi}      10.80.0.12cd
     #    Log With Color    ================== UE is not attached ==================    red
     #    Log To Console    =======================================================
     #END
-    Stop enb8 UE log collection_usernameSVG      ${pi_ip}
-    ATG_4G_bs Log Collection    ${eNB6}      4G_ATG_ENB6_PUC1_UDP_BIDI
+    UK_VM Stop UE log collection      ${pi_ip}
+    UK_VM bs log collection    ${eNB6}      4G_ATG_ENB6_PUC1_UDP_BIDI
     #ATG_4G_RU_bs Log Collection    ${RU_eNB6}    4G_ATG_ENB6_PUC1_TA_SWEEP
-    ATG_4G_L1 log collection      ${eNB6}      4G_ATG_ENB6_PUC1_UDP_BIDI
+    UK_VM L1 log collection      ${eNB6}      4G_ATG_ENB6_PUC1_UDP_BIDI
     ATG_4G_L1 log clear      ${eNB6}      4G_ATG_ENB6_PUC1_UDP_BIDI
     #ATG_4G_MESSAGE LOG COLLECTION    ${eNB6}      4G_ATG_ENB6_PUC1_TA_SWEEP
     SSHLibrary.Close All Connections

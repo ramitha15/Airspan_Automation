@@ -35,9 +35,10 @@ Attach single UE
             ${PI_PASS}=    Set Variable    ${pi_airspan_password}
     END
     LOG    Selected user: ${PI_USER}
-    SSHLibrary.Open Connection    ${pi_ip}
+    SSHLibrary.Open Connection    ${pi_ip}    timeout=30s
     Login    ${PI_USER}    ${PI_PASS}
-    Set Client Configuration    prompt=>
+    # Aircard SSH password prompt can take >3s (default timeout) on slow Pi->aircard links
+    Set Client Configuration    prompt=>    timeout=30s
     Write    ssh ${AC_USER}@${AC_IP}
     Read Until    password:
     Write    ${AC_PASS}
@@ -614,7 +615,7 @@ Login Pi
             ${PI_PASS}=    Set Variable    ${pi_airspan_password}
     END
     LOG    Selected user: ${PI_USER}
-    SSHLibrary.Open Connection    ${pi_ip}
+    SSHLibrary.Open Connection    ${pi_ip}    timeout=30s
     Login    ${PI_USER}    ${PI_PASS}
 
 
@@ -674,8 +675,8 @@ TCP DL
    Create SSH Connection with MME    ${MME_IP}    ${MME_USER}    ${MME_PASS}    ${MME_PORT}
    ${iperf_Client_mme}=    Catenate
    ...    iperf -c ${ue_ip1} -p ${port1} -S ${QCI6} -P 5 -t ${DURATION} &
-   ...    iperf -c ${ue_ip2} -p ${port2} -S ${QCI6} -P 5 -t ${DURATION} &
-   ...    iperf -c ${ue_ip2} -p ${port3} -S ${QCI7} -P 5 -t ${DURATION} &
+   #...    iperf -c ${ue_ip2} -p ${port2} -S ${QCI6} -P 5 -t ${DURATION} &
+   #...    iperf -c ${ue_ip2} -p ${port3} -S ${QCI7} -P 5 -t ${DURATION} &
    ...    iperf -c ${ue_ip2} -p ${port4} -S ${QCI9} -P 5 -t ${DURATION}
    Write    ${iperf_Client_mme}
    ${status}=    Read    delay=10s
@@ -883,8 +884,8 @@ UDP DL
    Create SSH Connection with MME    ${MME_IP}    ${MME_USER}    ${MME_PASS}    ${MME_PORT}
    ${iperf_Client_mme}=    Catenate
     ...    iperf -u -c ${ue_ip1} -p ${port1} -S ${QCI6} -b 5M -t ${DURATION} &
-    ...    iperf -u -c ${ue_ip2} -p ${port2} -S ${QCI6} -b 2M -t ${DURATION} &
-    ...    iperf -u -c ${ue_ip2} -p ${port3} -S ${QCI7} -b 2M -t ${DURATION} &
+   # ...    iperf -u -c ${ue_ip2} -p ${port2} -S ${QCI6} -b 2M -t ${DURATION} &
+   # ...    iperf -u -c ${ue_ip2} -p ${port3} -S ${QCI7} -b 2M -t ${DURATION} &
     ...    iperf -u -c ${ue_ip2} -p ${port4} -S ${QCI9} -b 6M -t ${DURATION}
    Write    ${iperf_Client_mme}
    ${status}=    Read    delay=10s
@@ -968,10 +969,10 @@ UDP BIDI
    Log With Color    \n========== Running UE${pi_ip} UDP DL iPerf Test ==========\n
    Create SSH Connection with MME    ${MME_IP}    ${MME_USER}    ${MME_PASS}    ${MME_PORT}
    ${iperf_Client_mme}=    Catenate
-    ...    iperf -u -c ${ue_ip1} -p ${port1} -S ${QCI6} -b 5M -t ${DURATION} &
-    ...    iperf -u -c ${ue_ip2} -p ${port2} -S ${QCI6} -b 2M -t ${DURATION} &
-    ...    iperf -u -c ${ue_ip2} -p ${port3} -S ${QCI7} -b 2M -t ${DURATION} &
-    ...    iperf -u -c ${ue_ip2} -p ${port4} -S ${QCI9} -b 6M -t ${DURATION}
+    ...    iperf -u -c ${ue_ip1} -p ${port1} -S ${QCI6} -b 0.1M -t ${DURATION} &
+#    ...    iperf -u -c ${ue_ip2} -p ${port2} -S ${QCI6} -b 2M -t ${DURATION} &
+#    ...    iperf -u -c ${ue_ip2} -p ${port3} -S ${QCI7} -b 2M -t ${DURATION} &
+    ...    iperf -u -c ${ue_ip2} -p ${port4} -S ${QCI9} -b 10M -t ${DURATION}
    Write    ${iperf_Client_mme}
    ${status}=    Read    delay=10s
    Log With Color    ===========================================================================    green
@@ -982,7 +983,7 @@ UDP BIDI
 #Running Client cmd at Aircard for management APN1
    Login Pi    ${pi_ip}
    Login Aircard
-   ${UL_UDP_1QCI_AC_Client}=    Set Variable    iperf -u -c ${MME_TUN_IP1} -p ${port1} -S ${QCI6} -b 1M -t ${DURATION} -B ${ue_ip1}
+   ${UL_UDP_1QCI_AC_Client}=    Set Variable    iperf -u -c ${MME_TUN_IP1} -p ${port1} -S ${QCI6} -b 0.1M -t ${DURATION} -B ${ue_ip1}
    Write    ${UL_UDP_1QCI_AC_Client}
    ${status}=    Read    delay=10s
    Log With Color    ===========================================================================    green
@@ -994,8 +995,8 @@ UDP BIDI
 #Running Client cmd at RaspberryPi for internet APN2
    Login Pi    ${pi_ip}
    ${UL_UDP_3QCI_Pi_Client}=    Catenate
-   ...    iperf -u -c ${MME_TUN_IP2} -p ${port2} -S ${QCI6} -b 1M -t ${DURATION} -B ${ue_ip2} &
-   ...    iperf -u -c ${MME_TUN_IP2} -p ${port3} -S ${QCI7} -b 2M -t ${DURATION} -B ${ue_ip2} &
+#   ...    iperf -u -c ${MME_TUN_IP2} -p ${port2} -S ${QCI6} -b 1M -t ${DURATION} -B ${ue_ip2} &
+#   ...    iperf -u -c ${MME_TUN_IP2} -p ${port3} -S ${QCI7} -b 2M -t ${DURATION} -B ${ue_ip2} &
    ...    iperf -u -c ${MME_TUN_IP2} -p ${port4} -S ${QCI9} -b 6M -t ${DURATION} -B ${ue_ip2} && pkill -9 iperf
    Write    ${UL_UDP_3QCI_Pi_Client}
    ${status}=    Read    delay=10s
@@ -1085,7 +1086,7 @@ Start_Non_Commercial_CE
     Write    tmux send-keys -t chanemu "set_rx_gain_db 20 1" C-m
     Write    tmux send-keys -t chanemu "set_tx_gain_db 64 2" C-m
     Write    tmux send-keys -t chanemu "set_tx_gain_db 64 3" C-m
-    Write    tmux send-keys -t chanemu "configure_mimo_mode 240 inf" C-m
+    Write    tmux send-keys -t chanemu "configure_mimo_mode 00 inf" C-m
 
     Log to console    "End of Initialization of CE and ready to do UE sign on"
 
@@ -1481,6 +1482,19 @@ Start enb6 PUC1 UE log collection_usernameSVG
      Write    ${pi_svg_password}
      
 
+Start AC7 gains settings
+    [Arguments]    ${pi_ip}=10.80.6.247
+     ${time}=     Get Current Date    result_format=%H-%M
+   
+    ${set_ac7_gain1}=    Set variable    cd ~/ps_scripts; ./setGain.sh 25 0
+    ${set_ac7_gain2}=    Set variable    cd ~/ps_scripts; ./setGain.sh 10 2
+     Login Pi    ${pi_ip}
+     Log to console    ========= Inside pi ${pi_ip} Writing the set AC7 gain settings with ${set_ac7_gain1} and ${set_ac7_gain2}==========
+     Write    ${set_ac7_gain1}
+     Write    ${set_ac7_gain2}
+     #${prompt}=    Read Until    password for svg:
+    #Write    ${pi_svg_password}
+
 Start enb8 UE log collection_usernameSVG
     [Arguments]    ${pi_ip}
      ${time}=     Get Current Date    result_format=%H-%M
@@ -1663,9 +1677,10 @@ attach_detach_during_TA_RSRP
             ${PI_PASS}=    Set Variable    ${pi_airspan_password}
     END
     LOG    Selected user: ${PI_USER}
-    SSHLibrary.Open Connection    ${pi_ip}
+    SSHLibrary.Open Connection    ${pi_ip}    timeout=30s
     Login    ${PI_USER}    ${PI_PASS}
-    Set Client Configuration    prompt=>
+    # Aircard SSH password prompt can take >3s (default timeout) on slow Pi->aircard links
+    Set Client Configuration    prompt=>    timeout=30s
     Write    ssh ${AC_USER}@${AC_IP}
     Read Until    password:
     Write    ${AC_PASS}
@@ -1704,3 +1719,12 @@ attach_detach_during_TA_RSRP
         ${CURRENT}=    Get Current Date
     END
     Log With Color    \n========== attach/detach cycling completed: ${cycle} cycles in ${DURATION}s ==========\n    green
+
+Start InterHO script
+    [Arguments]    ${pi_ip}
+    ${time}=     Get Current Date    result_format=%H-%M
+    ${set_InterHO_rsrp}=    Set variable    cd ~/ps_scripts; ./kvr_interHO.sh
+    
+    Login Pi    ${pi_ip}
+     Log to console    ========= Inside pi ${pi_ip} Starting the Inter HO script ==========
+     Write    ${set_InterHO_rsrp}

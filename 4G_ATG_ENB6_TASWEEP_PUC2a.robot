@@ -42,10 +42,9 @@ ${enb6_pi}      10.80.0.12
     Start_Non_Commercial_CE     ${pi_ip}     4G_ATG_ENB6_TA SWEEP
 
     #${ue_state}=    TCP BIDI    ${pi_ip}     ${base_port}
-    ${ue_state}=    UDP UL   ${pi_ip}
+    ${ue_state}=    UDP BIDI   ${pi_ip}
     Sleep    10s
     Log    ${ue_state}
-    
     IF    '13' in """${ue_state}"""
            #ATG_4G_CLI LOG_TA FULL SWEEP
           ATG_4G_CLI LOG_TA FULL SWEEP_Latest
