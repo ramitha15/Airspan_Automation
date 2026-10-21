@@ -1,0 +1,64 @@
+*** settings ***
+Resource    /home/kvramesh/automation/Latest/Regression/Variables.robot
+Resource    /home/kvramesh/automation/Latest/Regression/RaspberryPi_Aircard_SSH.robot
+Resource    /home/kvramesh/automation/Latest/Regression/UKVM_Log_Collection.robot
+#Resource    ../Resources/ATG/keyword.robot
+Library    Process
+Library    SSHLibrary
+Library    yaml
+Library    BuiltIn
+Library    OperatingSystem
+Library    Collections
+Library    String
+Library    RequestsLibrary
+Library    JSONLibrary
+Library    Process
+Library    RequestsLibrary
+Library    JSONLibrary
+Library    DateTime
+Suite Teardown    Terminate All Processes
+
+*** Variables ***
+${DURATION}     300
+${CE_IP}      10.80.100.201
+${CE_username}      pi
+${CE_password}      !@#4ir$p4N
+${eNB6}     10.80.5.249
+${RU_eNB6}     10.80.6.64
+${enb6_pi}      10.80.0.12
+
+*** Test Cases ***
+
+4G_ATG_ENB9_RSRP_SWEEP_UDP_BIDI
+    [Tags]    4G_ATG_ENB9_RSRP_SWEEP_UDP_BIDI
+    
+    ${CURRENT}=     Get Current Date
+    ${start_time}=    Get Current Date
+    ${end_time}=      Add Time To Date    ${start_time}    ${DURATION}
+    ${pi_ip}=   Set Variable    10.80.6.198
+    ${time}=     Get Current Date    result_format=%H-%M
+    ${RESULT_PATH}=     ATG_4G_Create Log Path
+    
+    Start UE log collection_usernameAIRSPAN    ${pi_ip}
+    ${ue_state}=    UDP BIDI    ${pi_ip}
+
+    Sleep     ${DURATION}
+    #ATG_4G_MESSAGE LOG COLLECTION    ${eNB9}      4G_ATG_ENB9_RSRP_SWEEP
+
+    # bs / ac / L1 logs are fetched by the UK VM (10.80.1.77) straight into its Results/<date>/<tag>/
+    UK_VM Stop UE log collection      ${pi_ip}
+    UK_VM bs log collection    ${eNB9}      4G_ATG_ENB9_RSRP_SWEEP_UDP_BIDI
+    #ATG_4G_RU_bs Log Collection    ${RU_eNB9}    4G_ATG_ENB9_RSRP_SWEEP
+    UK_VM L1 log collection      ${eNB9}      4G_ATG_ENB9_RSRP_SWEEP_UDP_BIDI
+    ATG_4G_L1 log clear      ${eNB9}      4G_ATG_ENB9_RSRP_SWEEP_UDP_BIDI
+    #ATG_4G_MESSAGE LOG COLLECTION    ${eNB9}      4G_ATG_ENB9_RSRP_SWEEP
+    SSHLibrary.Close All Connections
+
+
+
+
+
+
+
+
+
